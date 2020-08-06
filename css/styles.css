@@ -54,3 +54,11 @@ a:link { text-decoration: none; }
     display: none;
     box-shadow: 0 0 10px 1px;
 }
+
+
+/* large viewports */
+@media (min-width: 1440px) {
+    header p {
+        max-width: 50%;
+    }
+}
