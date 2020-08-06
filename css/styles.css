@@ -2,8 +2,8 @@
 
 * { box-sizing: border-box }
 
+a { display:contents; }
 a:link { text-decoration: none; }
-
 
 #intro {
     background: linear-gradient(70deg, rgb(217, 66, 255), rgb(0, 71, 202) ) ;
@@ -22,11 +22,9 @@ a:link { text-decoration: none; }
 #icon2:hover,
 #icon3:hover,
 #icon4:hover {
-    border: solid 5px rgb(149, 47, 245);
-    border-radius: 1000px;
+    border-bottom: solid 5px rgb(149, 47, 245);
     color: rgb(149, 47, 245);
 }
-
 
 #project-container {
     display: none;
@@ -34,13 +32,8 @@ a:link { text-decoration: none; }
     width: 80%;
 }
 
-.project_card {
-    transition: all 0.3s;
-}
-
-.project_card:hover {
-    box-shadow: 0 0 10px 1px;
-}
+.project_card { transition: all 0.3s }
+.project_card:hover { box-shadow: 0 0 10px 1px }
 
 #cover-letter {
     display: none;
@@ -48,11 +41,6 @@ a:link { text-decoration: none; }
     border-radius: 30px;
     padding: 20px;
     color: rgb(233, 233, 233);
-}
-
-#contact {
-    display: none;
-    box-shadow: 0 0 10px 1px;
 }
 
 
