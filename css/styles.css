@@ -27,6 +27,7 @@ img {
 #icon3:hover,
 #icon4:hover {
     border-bottom: solid 5px rgb(149, 47, 245);
+    border-radius: 5px;
     color: rgb(149, 47, 245);
 }
 
