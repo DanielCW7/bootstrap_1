@@ -5,6 +5,10 @@
 a { display:contents; }
 a:link { text-decoration: none; }
 
+img {
+    height: 50%
+}
+
 #intro {
     background: linear-gradient(70deg, rgb(217, 66, 255), rgb(0, 71, 202) ) ;
     color: whitesmoke;
@@ -32,8 +36,13 @@ a:link { text-decoration: none; }
     width: 80%;
 }
 
-.project_card { transition: all 0.3s }
-.project_card:hover { box-shadow: 0 0 10px 1px }
+.card { 
+    width: 200px;
+    transition: all 0.3s 
+}
+.card:hover {
+    background: rgb(255, 180, 239);
+}
 
 #cover-letter {
     display: none;
