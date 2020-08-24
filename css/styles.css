@@ -53,6 +53,18 @@ img {
     color: rgb(233, 233, 233);
 }
 
+/* medium viewports */
+@media (min-width: 768px) {
+    #project-container {
+        width: 95%;
+    }
+}
+
+@media (min-width: 1024px) {
+    #project-container {
+        width: 80%;
+    }
+}
 
 /* large viewports */
 @media (min-width: 1440px) {
