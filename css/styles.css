@@ -20,16 +20,14 @@ img {
 
 #icon1,
 #icon2,
-#icon3,
-#icon4 { 
+#icon3 { 
     transition: all 0.3s;
     border-bottom: solid 5px white;
 }
 
 #icon1:hover,
 #icon2:hover,
-#icon3:hover,
-#icon4:hover {
+#icon3:hover {
     border-bottom: solid 5px rgb(149, 47, 245);
     border-radius: 5px;
     color: rgb(149, 47, 245);
