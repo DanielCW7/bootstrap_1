@@ -17,10 +17,14 @@ img {
 
 #heading { padding-top: 7em }
 
+
 #icon1,
 #icon2,
 #icon3,
-#icon4 { transition: all 0.3s }
+#icon4 { 
+    transition: all 0.3s;
+    border-bottom: solid 5px white;
+}
 
 #icon1:hover,
 #icon2:hover,
@@ -39,8 +43,10 @@ img {
 
 .card { 
     width: 200px;
+    height: 500px;
     transition: all 0.3s 
 }
+
 .card:hover {
     background: rgb(255, 180, 239);
 }
