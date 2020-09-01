@@ -6,12 +6,14 @@ let cover = document.getElementById('cover-letter');
 // icon events
 i1.addEventListener ('click', function() {
     i1.style.color = 'rgb(149, 47, 245)';
-    project.style.display = '';
+    i3.style.color = 'black';
+    project.style.display = 'block';
     cover.style.display = 'none';
 });
 
 i3.addEventListener ('click', function() {
     i3.style.color = 'rgb(149, 47, 245)';
-    cover.style.display = '';
+    i1.style.color = 'black';
+    cover.style.display = 'block';
     project.style.display = 'none';
 });
